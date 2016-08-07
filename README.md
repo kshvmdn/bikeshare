@@ -1,6 +1,6 @@
 ## bikeshare [![npm version](https://badge.fury.io/js/bikeshare.svg)](https://badge.fury.io/js/bikeshare)
 
-A Node.js wrapper for the [Bike Share Toronto API](https://feeds.bikesharetoronto.com/stations/stations.json) via [Open Data Toronto](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ad3cb6b6ae92b310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD).
+A Node.js wrapper for the [Bike Share Toronto API](https://feeds.bikesharetoronto.com/stations/stations.json) ([Open Data Toronto](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ad3cb6b6ae92b310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)).
 
 ### Installation
 
@@ -21,31 +21,28 @@ A Node.js wrapper for the [Bike Share Toronto API](https://feeds.bikesharetoront
 
 #### API
 
-```js
-const bikeshare = require('bikeshare');
-```
+__`bikeshare.getStations`__
 
-- **`bikeshare.getStations`**
-- Retrieve a list of stations.
+- Retrieve list of all stations.
 - Supports both Promises and error-first callbacks, use whichever you prefer. :smile:
 
   ```js
+  const bikeshare = require('bikeshare');
+
   bikeshare.getStations((err, res) => {
     if (err) throw err
     console.log(res)
   })
-  ```
 
-  ```js
   const request = bikeshare.getStations()
   request
-    .then((res) => console.log(res))
-    .catch((err) => console.error(err))
+  .then((res) => console.log(res))
+  .catch((err) => console.error(err))
   ```
 
 - Sample response
 
-  ```json
+  ```js
   {
     "meta": {
       "updated": "2016-08-07T23:11:42.000Z",
@@ -82,7 +79,7 @@ const bikeshare = require('bikeshare');
   }
   ```
 
-### Contribute / Development
+### Contribute
 
 The project is completely open source. Feel free to [open an issue](https://github.com/kshvmdn/bikeshare/issues) or submit a [PR](https://github.com/kshvmdn/bikeshare/pulls).
 
