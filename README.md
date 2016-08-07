@@ -1,4 +1,4 @@
-## bikeshare [![npm version](https://badge.fury.io/js/bikeshare.svg)](https://badge.fury.io/js/bikeshare)
+## bikeshare [![npm version](https://badge.fury.io/js/bikeshare.svg)](https://badge.fury.io/js/bikeshare) [![Build Status](https://travis-ci.org/kshvmdn/bikeshare.svg?branch=master)](https://travis-ci.org/kshvmdn/bikeshare)
 
 A Node.js wrapper for the [Bike Share Toronto API](https://feeds.bikesharetoronto.com/stations/stations.json) ([Open Data Toronto](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ad3cb6b6ae92b310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)).
 
