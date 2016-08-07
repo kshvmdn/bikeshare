@@ -1,6 +1,6 @@
 {
   "name": "bikeshare",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Node.js wrapper for the Bike Share Toronto API",
   "main": "lib/bikeshare.js",
   "engines": {
