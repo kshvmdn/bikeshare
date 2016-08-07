@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "author": "Kashav Madan <kshvmdn@gmail.com> (kshvmdn.me)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kshvmdn/bikeshare/issues"
   },
